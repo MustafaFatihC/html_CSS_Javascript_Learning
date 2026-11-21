@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: aqua;
+    align-items: center;  
+    text-align: center;
+    justify-content: center;
+    border: 2px aqua solid;
+    border-radius: 30px;
+    width: 250px;
+    height: 300px;
+    transform: translateX(200px) translateY(50px);
+}
+.box button {
+    width: 100%;
+}
+
+#yazi{
+    color: rgba(118, 136, 47, 0.95);
+    margin-bottom: 25px;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: lightblue;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#button {
+    background-color: red;
+    border: 2px black solid;
+    border-radius: 15px;
+    width: 75px;
+    height: 50px;
+    color: white;
+    margin-top: 25px;
+    
+}
+.box #button:hover{
+    background-color: darkgreen;
+    transform: scale(1.1);
+}
+
+.container{
+    background-color: aqua;
+    color: chocolate;    
+    gap: 20px;
+    font-size: xx-large;
+    display:  grid; 
+    grid-template-columns: 
+        repeat(3,2fr);
+    justify-content: center ;
+    border: 2px black solid;
+    border-radius: 15px;
+    height: 250px;
+    width: 250px;
+    align-items: center;
+    background-image: url(samurai.jpg) ;
+    transform: translateX(200px) translateY(100px);
+
+
+}
+
+@media (max-width : 600px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+body{
+    background-image: url(lotr_logo.jp.jpg);
+    width: 600px;
+    height: 750px;
+}
+
+.linkler {
+
+    background-color: chartreuse;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid chartreuse;
+    border-radius: 15px ;
+    
+    display: flex;
+    gap: 10px;
+    z-index: 2;
+    
+}
+
+.linkler a {
+    color: rgb(104, 67, 8);
+
+}
+
+.text #birinci {
+    transform: translateY(50px);
+}
+#birinci:focus {
+    border: 10px solid black;
+}
+
+.text #ikinci {
+    transform: translateY(1000px);
+}
+#ikinci:focus{
+    border: 2px blue solid;
+}
+
+
+
+:root {
+    --ana-renk: seagreen;
+}
+
+
+header {
+    z-index: 2;
+    position: sticky;
+    top: 0;
+}
+
+.footer a {
+    transform: translateY(100px);
+}
+
+
+h1::before {
+    content: "🔥";
+}
+
+
+/* h1::selection {
+    background-color: black;
+    color: wheat;
+} */

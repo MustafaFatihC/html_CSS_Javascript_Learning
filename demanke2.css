@@ -1,0 +1,30 @@
+.kartlar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px black solid;
+    padding: 50px;
+    overflow: auto;
+}
+.kart{
+    border: 1px solid black;
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+body{
+    text-align: center;
+}
+
+.box button {
+    position: fixed;
+    padding: 25px;
+    border: 0px;
+    border-radius: 30px;
+    background-color: aquamarine;
+}
+

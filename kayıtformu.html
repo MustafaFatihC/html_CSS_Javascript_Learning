@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kayıtfomu.css">
+    <title>Kayıt Formu</title>
+</head>
+<body>
+    <div class="kayıtformu">
+        <h2>Kayıt Formu</h2>
+        <div class="girdi">
+            <form >
+                <div class="in"> <p>Ad Soyad</p> <input type="text" required></div>
+                <div  class="in"><p>E-posta</p><input type="email" required></div>
+                <div class="in"><p>Şifre</p><input type="password" required></div>
+            </form>
+        </div>
+        <div class="Şehir"> 
+            <select >
+                <option value="İzmir">İzmir</option>
+                <option value="İstanbul">İstanbul</option>
+                <option value="Ankara">Ankara</option>
+            </select>
+        </div>
+        <div class="kutulu"><input type="checkbox">
+        <label >Kullanım şartlarını kabul ediyorum</label></div>
+        <div class="kayıttuşu"><button>Kayıt Ol</button></div>
+    </div>
+</body>
+</html>
+
+
+<!-- ┌──────────────────────────┐
+│       Kayıt Ol           │
+│                          │
+│ Ad Soyad                 │
+│ [____________________]   │
+│                          │
+│ E-posta                  │
+│ [____________________]   │
+│                          │
+│ Şifre                    │
+│ [____________________]   │
+│                          │
+│ Şehir                    │
+│ [ Ankara            ▼ ]  │
+│                          │
+│ ☑ Kullanım şartlarını    │
+│   kabul ediyorum         │
+│                          │
+│      [ Kayıt Ol ]        │
+└──────────────────────────┘ -->

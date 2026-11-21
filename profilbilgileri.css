@@ -1,0 +1,41 @@
+.profilBilgileri {
+    border: 2px black solid;
+    border-radius: 15px;
+    width: 350px;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display:grid;
+    gap: 20px;
+    padding: 25px;
+    padding-bottom: 50px;
+}
+.KişiselBilgiler{
+    
+    border: 2px black solid;
+}
+
+.Düğme {
+    color:red;
+    background-color: cornflowerblue;
+    border: 2px cornflowerblue solid;
+    border-radius: 30px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    
+}
+.Düğme:hover {
+    background-color: darkblue;
+    border: 2px black solid;
+    border-radius: 100px;    
+}
+
+#FOTO{
+    width: 120px;
+    height: 100px;
+}

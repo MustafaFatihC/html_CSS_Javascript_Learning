@@ -1,0 +1,51 @@
+.girdi {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+button {
+    background-color: red;
+    transition: 0.3s;
+    padding: 25px;
+}
+
+.girdi input:focus {
+    border: 4px solid aqua;
+    
+}
+
+.girdi input {
+
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: darkred;
+
+    padding: 20px;
+}
+
+
+@keyframes hareket {
+    from {
+        transform: translateY(0) translateX(0);
+    }
+
+    to {
+        transform: translateY(100px) translateX(100px);
+    }
+}
+
+
+
+button {
+    animation: hareket 4s infinite;
+}

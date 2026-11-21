@@ -1,0 +1,49 @@
+.kullanıcı {
+    border: 2px solid black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 250px;
+    height: 400px;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+}
+
+div {
+    padding-top: 20px;
+}
+
+.KullanıcıAdı :focus{
+    border: 4px red solid;
+}
+
+.Şifre :focus{
+    border: 4px red solid;
+}
+.düğme {   
+    text-align: center;
+}
+
+.düğme button {
+    color: darkslategray;
+    padding: 20px;
+    border: 2px aqua solid;
+    border-radius: 15px;
+    background-color: aqua;
+}
+
+button:hover {
+    background-color: red;
+    border: 2px red solid;
+}
+
+
+
+
+a:hover {
+    color:  peru;
+}
